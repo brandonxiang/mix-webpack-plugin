@@ -1,0 +1,25 @@
+{
+  "name": "mix-webpack-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "files": [
+    "./dist/",
+    "./runtime/"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sirv": "^2.0.2",
+    "polka": "^0.5.2",
+    "webpack-node-externals": "^3.0.0",
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3"
+  }
+}
